@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bebas neue';
+    src: url('fontes/BebasNeue-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(85, 187, 85);
+}
+
+.titulo-principal {
+    font-family: bebas neue, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 20px;
+}
+
+.sub-titulo {
+    text-align: center;
+    color: rgb(210, 253, 205);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    outline: 10px;
+}
+
+nav > a:hover {
+    color: rgb(0, 36, 0);
+    text-decoration: underline;
+}
+
+header {
+    background-color: green;
+    color: white;
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+    padding: 20px 20px 0px 20px;
+    margin: 0px 150px 13px 150px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.397);
+}
+
+section {
+    margin: 0px 0px;
+}
+
+h1 {
+    font-family: 'idroid', Times, serif;
+    color: rgb(0, 58, 0);
+    margin: 0px;
+}
+
+h2 {
+    background-color: rgba(85, 187, 85, 0.418);
+    font-family: 'idroid', Times, serif;
+    color: darkgreen;
+    padding: 0px 0px 0px 10px;
+}
+
+main > section > p > a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+main > section > p > a:hover {
+    color: rgb(0, 58, 0);
+    text-decoration: underline;
+}
+
+main > section > article > p > a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+main > section > article > p > a:hover {
+    color: rgb(0, 58, 0);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(4, 59, 4);
+    color: white;
+    text-align: center;
+    padding: 7px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+aside {
+    background-color: rgb(4, 59, 4);
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+}
